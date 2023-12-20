@@ -1,7 +1,9 @@
 html body {
+    height: 100vh;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Rubik', sans-serif;
+    background-color: rgb(163, 163, 163);
 }
 
 .container {
@@ -35,7 +37,7 @@ input {
     font-family: 'Rubik', sans-serif;
     margin: 10px 10px;
     padding: 15px;
-    width: 200px;
+    width: 250px;
 }
 
 
@@ -49,7 +51,7 @@ button {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     padding: 15px;
-    width: 200px;
+    width: 250px;
 }
 
 button:hover {
@@ -72,4 +74,9 @@ li {
     border-radius: 8px;
     padding: 12px;
     margin: 5px;
+}
+
+ul li:hover {
+    cursor: pointer;
+    background-color: aquamarine;
 }
