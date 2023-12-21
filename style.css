@@ -4,6 +4,7 @@ html body {
     margin: 0 auto;
     font-family: 'Rubik', sans-serif;
     background-color: rgb(240, 239, 239);
+    overflow-y: hidden;
 }
 
 .container {
@@ -13,6 +14,7 @@ html body {
     flex-direction: column;
     max-width: 320px;
     margin: 30px auto;
+    overflow-x: auto;
 }
 
 img {
